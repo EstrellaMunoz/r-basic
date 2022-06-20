@@ -3,6 +3,7 @@ title: "Mi primer Markdown"
 author: "Curso de Álgebra Lineal"
 date: "11/12/2018"
 output:
+  pdf_document: default
   html_document:
     df_print: paged
 ---
@@ -30,3 +31,4 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
